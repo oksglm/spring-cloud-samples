@@ -1,0 +1,11 @@
+spring:
+    application:
+        name: client-config
+    cloud:
+        config:
+            fail-fast: true
+            password: s3cr3t
+            uri: http://localhost:8888
+            username: root
+    profiles:
+        active: dev

@@ -1,0 +1,15 @@
+encrypt:
+    key: H@McQfThWmZq4t7w!z%C*F-JaNdRgUkXn2r5u8x/A?D(G+KbPeShVmYq3s6v9y$B
+server:
+    port: 8888
+spring:
+    cloud:
+        config:
+            server:
+                git:
+                    cloneOnStart: true
+                    uri: https://github.com/oksglm/spring-cloud-config
+    security:
+        user:
+            name: root
+            password: s3cr3t
